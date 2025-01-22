@@ -1,10 +1,7 @@
 
-
-
-
-// ArrayProcessor.java
-public class ArrayProcessor {
-    public static Location locateLargest(double[][] a) {
+// Manager.java
+public class Manager {
+    public static Object locateLargest(double[][] a) {
         int row = 0;
         int column = 0;
         double maxValue = a[0][0]; // Assume the first element is the largest
@@ -19,7 +16,8 @@ public class ArrayProcessor {
                 }
             }
         }
-        // Return the location of the largest value
-        return new Location(row, column, maxValue);
+        // Return the largest value as an Object
+        return new Object(row, column, maxValue);
     }
 }
+

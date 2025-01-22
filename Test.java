@@ -1,15 +1,12 @@
 
-// test for GitHub
 
-// Main.java
+
+// Test.java
 import java.util.Scanner;
 
-
-
-public class Main {
+public class Test {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-    
 
         // Prompt user to enter the size of the array
         System.out.print("Enter the number of rows and columns in the array: ");
@@ -26,13 +23,11 @@ public class Main {
             }
         }
 
-        // Find the location of the largest value
-        Location location = ArrayProcessor.locateLargest(array);
+        // Find the largest element and its location
+        Object location = Manager.locateLargest(array);
 
         // Print the result
-        System.out.println("The location of the largest element should be " + location.getMaxValue() +
-        " at (" + location.getRow() + ", " + location.getColumn() + ")");
-    
-    
+        System.out.println("The location of the largest element is " + location.getMaxValue() +
+                " at (" + location.getRow() + ", " + location.getColumn() + ")");
     }
 }
