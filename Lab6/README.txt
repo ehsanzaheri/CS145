@@ -10,7 +10,11 @@ Files included:
 - MemberTree.java -> handles all BST logic like insert, delete, search, and traversal
 
 To run:
+<<<<<<< HEAD
 1. Run the program:
+=======
+1.  Run the program:
+>>>>>>> 1da97132559de2cae1957dde374ff50799df0f1e
    java TreeMemberManager
 
 This version is clean, easy to use, and shows understanding of recursion, trees, and Java basics.
