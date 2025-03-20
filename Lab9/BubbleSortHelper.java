@@ -1,9 +1,12 @@
+// Name: Sunny Zaheri
+// Lab Date: March 19, 2025
 // A helper class that provides a bubble sort method for integer arrays
 
 public class BubbleSortHelper {
     public static void bubbleSort(int[] arr) {
         int n = arr.length;
         boolean swapped;
+        
 
         // Loop through array multiple times
         for (int i = 0; i < n - 1; i++) {
